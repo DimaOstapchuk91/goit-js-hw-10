@@ -1,0 +1,32 @@
+@import url('./reset.css');
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  margin: 0 auto;
+  width: 1440px;
+  padding: 24px 156px;
+}
+
+.gallery-item {
+  width: 360px;
+  height: 200px;
+}
+
+.gallery-image {
+  width: 360px;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 300ms ease;
+}
+
+.gallery-image:hover {
+  transform: scale(1.04);
+}
+
+.modal-gallery-image {
+  width: 1112px;
+  height: 640px;
+}

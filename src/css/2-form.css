@@ -1,0 +1,49 @@
+@import url('./reset.css');
+
+.input-text {
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 8px 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  resize: none;
+}
+
+.input-text:hover,
+.input-text:focus {
+  border-color: #000;
+  outline: none;
+}
+
+.input-title {
+  font-family: sans-serif;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 408px;
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 30px;
+}
+
+.form-btn {
+  width: 86px;
+  height: 40px;
+  background-color: #4e75ff;
+  border-radius: 8px;
+  border: none;
+  color: #ffffff;
+  transition: background-color 800ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.form-btn:hover {
+  background-color: #6c8cff;
+}
